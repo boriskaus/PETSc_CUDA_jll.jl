@@ -1,0 +1,29 @@
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "13.0"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6322c8b9efb1a46492d5ff376bac94d6594f0322"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "31f6e7d7d19c1ae6febc7df2847c33abc3b90dbff8dcffac9c5e367a690debe8"
+    url = "https://github.com/boriskaus/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpich.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e54ff93ff456212e80de645f1d63439839dbfd76"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "4da009f4978fd60096c7ef01506b7c56cfc8422f5574a0e415da13ceb556ee2e"
+    url = "https://github.com/boriskaus/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.0-mpi+mpich.tar.gz"
